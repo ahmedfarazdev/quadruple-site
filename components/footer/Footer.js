@@ -41,7 +41,7 @@ export default function Footer() {
                     <div className={styles.links}>
                         <Link href="">Privacy Policy</Link>
                         <Link href="">Terms Of Use</Link>
-                        <Link href="">Faq's</Link>
+                        <Link href="">Faq&lsquo;s</Link>
                     </div>
                 </div>
                 <div className={styles.one}>
