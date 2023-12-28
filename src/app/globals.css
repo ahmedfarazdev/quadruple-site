@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Azonix';
+  src: url('../../public/fonts/AzonixRegular.woff2') format('woff2'),
+    url('../../public/fonts/AzonixRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE INFINITY Personal Use';
+  src: url('../../public/fonts/MADEINFINITYPersonalUse-Black.woff') format('woff2'),
+    url('../../public/fonts/MADEINFINITYPersonalUse-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE INFINITY Personal Use';
+  src: url('../../public/fonts/MADEINFINITYPersonalUse-Regular.woff2') format('woff2'),
+    url('../../public/fonts/MADEINFINITYPersonalUse-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE INFINITY Personal Use';
+  src: url('../../public/fonts/MADEINFINITYPersonalUse-Light.woff2') format('woff2'),
+    url('../../public/fonts/MADEINFINITYPersonalUse-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE INFINITY Personal Use';
+  src: url('../../public/fonts/MADEINFINITYPersonalUse-Medium.woff2') format('woff2'),
+    url('../../public/fonts/MADEINFINITYPersonalUse-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE INFINITY Personal Use';
+  src: url('../../public/fonts/MADEINFINITYPersonalUse-Thin.woff2') format('woff2'),
+    url('../../public/fonts/MADEINFINITYPersonalUse-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family-made: 'MADE INFINITY Personal Use';
+  --font-family-azonix: 'Azonix'
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.project-slider .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.project-slider .prev-arrow {
+  left: 0;
+
+}
+
+.project-slider .next-arrow {
+  right: 0;
+
+}
