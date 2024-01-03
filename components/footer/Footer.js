@@ -132,7 +132,7 @@ const Footer = () => {
       <div className={styles.footer_bottom}>
         <div className="container">
           <div className={styles.footer_bottom_meta}>
-            <p>©2023 by Marvellex Softwares Solution.</p>
+            <p>©2023 by Quadruple Solution.</p>
             <ul className={styles.bottom_list}>
               <li>
                 <Link href="#">Privacy Policy</Link>
