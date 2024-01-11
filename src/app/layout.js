@@ -12,9 +12,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
+        <Header id="header-section" />
         {children}
-        <Footer />
+        <section id="contact-section"><Footer /></section>
       </body>
     </html>
   );
