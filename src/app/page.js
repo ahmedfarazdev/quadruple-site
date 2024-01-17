@@ -7,9 +7,6 @@ import Aboutus from "../../components/aboutus/Aboutus";
 import OurProjects from "../../components/ourprojects/OurProjects";
 import Services from "../../components/services/Services";
 
-// Styles
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
     <>
