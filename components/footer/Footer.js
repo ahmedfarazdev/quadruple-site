@@ -141,7 +141,7 @@ const Footer = () => {
                 <Link href="#">Terms Of Use</Link>
               </li>
               <li>
-                <Link href="#">Faq's</Link>
+                <Link href="#">Faq&apos;s</Link>
               </li>
             </ul>
           </div>
