@@ -19,11 +19,9 @@ export default function Services() {
             <div className={styles.icon_bg}>
               <BagIcon fill="white" width={30} height={28} />
             </div>
-            <h4>lorem ipsum</h4>
+            <h4>Web Development</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Elevate Your Online Presence with Expert Web Development Services
             </p>
             <Link href="#" className={styles.card_link}>
               See more
@@ -33,11 +31,9 @@ export default function Services() {
             <div className={styles.icon_bg}>
               <OneIcon fill="white" width={32} height={30} />
             </div>
-            <h4>lorem ipsum</h4>
+            <h4>Mobile Apps Developement</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Transform Your Ideas into Innovative Mobile Apps with Quadruple
             </p>
             <Link href="#" className={styles.card_link}>
               See more
@@ -47,11 +43,9 @@ export default function Services() {
             <div className={styles.icon_bg}>
               <HouseIcon fill="white" width={32} height={30} />
             </div>
-            <h4>lorem ipsum</h4>
+            <h4>Blockchain Developement</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Unlock the Power of Blockchain with Custom Development Solutions
             </p>
             <Link href="#" className={styles.card_link}>
               See more
@@ -61,11 +55,9 @@ export default function Services() {
             <div className={styles.icon_bg}>
               <UserIcon fill="white" width={32} height={30} />
             </div>
-            <h4>lorem ipsum</h4>
+            <h4>AWS Server Services</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Harness the Power of AWS for Scalable and Secure Cloud Solutions
             </p>
             <Link href="#" className={styles.card_link}>
               See more

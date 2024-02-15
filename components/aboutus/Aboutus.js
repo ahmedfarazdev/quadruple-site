@@ -29,11 +29,9 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>lorem ipsum</h4>
+            <h4>Blockchain Development</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            The groundbreaking potential of Blockchain technology is a core belief at Quadruple. 
             </p>
             <Link href="#" className={styles.card_link}>
               See More
@@ -46,14 +44,12 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>lorem ipsum</h4>
+            <h4>Web Development</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            At Quadtruple Solutions, we craft web applications that seamlessly blend cutting-edge technology with creative innovation, ensuring simplicity, effectiveness, and captivation for your users.
             </p>
             <Link href="#" className={styles.card_link}>
-              accusantium dolor
+              See More
             </Link>
           </div>
           <div className={styles.single_card}>
@@ -63,14 +59,12 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>lorem ipsum</h4>
+            <h4>DevOps Services</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Quadruple offers comprehensive DevOps services to streamline and enhance your development and operations processes.  
             </p>
             <Link href="#" className={styles.card_link}>
-              accusantium dolor
+              See More
             </Link>
           </div>
           <div className={styles.single_card}>
@@ -80,14 +74,12 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>lorem ipsum</h4>
+            <h4>Web Security</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Quadruple, a prominent provider of web security solutions, is dedicated to safeguarding internet environments against potential threats and vulnerabilities.
             </p>
             <Link href="#" className={styles.card_link}>
-              accusantium dolor
+              See More
             </Link>
           </div>
           <div className={styles.single_card}>
@@ -97,14 +89,12 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>lorem ipsum</h4>
+            <h4>Cyber Security</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Elevate your digital defenses with Quadruple's cutting-edge cyber security solutions. We fortify your digital assets with robust cyber security measures, shielding you from evolving online threats.
             </p>
             <Link href="#" className={styles.card_link}>
-              accusantium dolor
+              See More
             </Link>
           </div>
           <div className={styles.single_card}>
@@ -114,14 +104,12 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>lorem ipsum</h4>
+            <h4>AWS Services</h4>
             <p className={styles.card_text}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            Unlock the full potential of cloud computing with Quadruple's AWS services, delivering unparalleled scalability, reliability, and innovation.
             </p>
             <Link href="#" className={styles.card_link}>
-              accusantium dolor
+              See More
             </Link>
           </div>
         </div>

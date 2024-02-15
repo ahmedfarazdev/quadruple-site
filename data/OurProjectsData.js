@@ -1,4 +1,4 @@
-const sliderImg1 = "/images/slider-img1.png";
+const sliderImg1 = "/images/productdata.webp";
 const sliderImg2 = "/images/slider-img2.jpg";
 const sliderImg3 = "/images/slider-img3.jpg";
 const sliderImg4 = "/images/slider-img4.jpg";
@@ -7,29 +7,29 @@ export const OurProjectsData = [
   {
     id: "01",
     img: sliderImg1,
-    title: "Lorem Ipsum",
+    title: "Product Data",
     link: "See More",
-    text: "eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minimfficia deserunt mollit anim id est laborum",
+    text: "A Platform that connects design and construction professionals with product, manufacturers, and suppliers in a convenient and user-friendly platform.",
   },
   {
     id: "02",
     img: sliderImg2,
-    title: "Lorem Ipsum",
+    title: "Marvellex Blockchain",
     link: "See More",
-    text: "eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minimfficia deserunt mollit anim id est laborum",
+    text: "The Ethereum blockchain has split into the Marvellex Blockchain, and its smart contract may handle a wide range of applications, including games, payments, IT projects, and cryptocurrency tokens.",
   },
   {
     id: "03",
     img: sliderImg3,
-    title: "Lorem Ipsum",
+    title: "Hapvider",
     link: "See More",
-    text: "eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minimfficia deserunt mollit anim id est laborum",
+    text: "Affordable Small Business Digital Marketing Services for Plumbing, HVAC, eCommerce, and other industries.",
   },
   {
     id: "04",
     img: sliderImg4,
-    title: "Lorem Ipsum",
+    title: "Marvellex Grand Store",
     link: "See More",
-    text: "eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minimfficia deserunt mollit anim id est laborum",
+    text: "Embark on a revolutionary shopping experience with Marvellex Global Store, where innovation meets convenience at every step.",
   },
 ];
