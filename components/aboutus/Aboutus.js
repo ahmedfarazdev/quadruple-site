@@ -91,7 +91,7 @@ export default function Aboutus() {
             />
             <h4>Cyber Security</h4>
             <p className={styles.card_text}>
-            Elevate your digital defenses with Quadruple's cutting-edge cyber security solutions. We fortify your digital assets with robust cyber security measures, shielding you from evolving online threats.
+            Elevate your digital defenses with Quadruple&apos;s cutting-edge cyber security solutions. We fortify your digital assets with robust cyber security measures, shielding you from evolving online threats.
             </p>
             <Link href="#" className={styles.card_link}>
               See More
@@ -106,7 +106,7 @@ export default function Aboutus() {
             />
             <h4>AWS Services</h4>
             <p className={styles.card_text}>
-            Unlock the full potential of cloud computing with Quadruple's AWS services, delivering unparalleled scalability, reliability, and innovation.
+            Unlock the full potential of cloud computing with Quadruple&apos;s AWS services, delivering unparalleled scalability, reliability, and innovation.
             </p>
             <Link href="#" className={styles.card_link}>
               See More
