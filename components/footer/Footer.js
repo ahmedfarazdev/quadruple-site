@@ -102,20 +102,17 @@ const Footer = () => {
                 <li>
                   <Link href="tel:(333) 123-4567">
                     <Call stroke="white" width={20} height={20} />
-                    <span>(333) 123-4567</span>
+                    <span>(332) 532-0647</span>
                   </Link>
                 </li>
                 <li>
                   <Link href="mailto:support@gmail.com">
                     <Email stroke="white" width={18} height={16} />
-                    <span>support@gmail.com</span>
+                    <span>support@quadsol.com</span>
                   </Link>
                 </li>
               </ul>
-            </div>
-            <div className={styles.footer_cols}>
-              <h6>Report</h6>
-              <div className={styles.footer_form}>
+              {/* <div className={styles.footer_form}>
                 <input
                   type="text"
                   id="message"
@@ -124,7 +121,10 @@ const Footer = () => {
                   required
                 />
                 <button type="submit">Submit</button>
-              </div>
+              </div> */}
+            </div>
+            <div className={styles.footer_cols}>
+              
             </div>
           </div>
         </div>

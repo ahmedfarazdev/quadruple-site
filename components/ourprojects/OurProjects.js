@@ -96,8 +96,8 @@ export default function OurProjects() {
                       <span className={styles.project_id}>{data.id}</span>
                       <h3 className={styles.project_title}>{data.title}</h3>
                       <p className={styles.project_detail}>{data.text}</p>
-                      <Link href="#" className={styles.project_link}>
-                        {data.link}
+                      <Link target="_blank" href={data.link} className={styles.project_link}>
+                        See More
                       </Link>
                     </div>
                   </div>

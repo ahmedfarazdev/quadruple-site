@@ -68,7 +68,7 @@ export default function Header() {
               </li>
             </ul>
             <div className={styles.header_btn}>
-              <button type="submit">White Paper</button>
+              {/* <button type="submit">White Paper</button> */}
             </div>
             <div className={styles.toggle_open} onClick={handleMenuOpen}>
               <Menu stroke="#2C2929" width={24} height={24} />
