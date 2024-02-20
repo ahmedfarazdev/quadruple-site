@@ -19,8 +19,8 @@ export default function Aboutus() {
   return (
     <section className={styles.about_us}>
       <div className="container">
-        <h2 className="site-heading">About Us</h2>
-        <p className="site-text">All You Need To Know About Us</p>
+        <h2 className="site-heading">Our Services</h2>
+        <p className="site-text">Empowering Growth Through Innovative Solutions.</p>
         <div className={styles.about_card}>
           <div className={styles.single_card}>
             <PenIcon
@@ -104,7 +104,7 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>AWS Services</h4>
+            <h4>Cloud Services</h4>
             <p className={styles.card_text}>
             Unlock the full potential of cloud computing with Quadruple&apos;s AWS services, delivering unparalleled scalability, reliability, and innovation.
             </p>

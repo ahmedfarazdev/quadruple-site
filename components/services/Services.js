@@ -12,8 +12,8 @@ export default function Services() {
   return (
     <section className={styles.services}>
       <div className="container">
-        <h2 className="site-heading">Services</h2>
-        <p className="site-text">services we provide</p>
+        <h2 className="site-heading">About Us</h2>
+        <p className="site-text">All You Need To Know About Us</p>
         <div className={styles.services_card}>
           <div className={styles.single_card}>
             <div className={styles.icon_bg}>
@@ -55,7 +55,7 @@ export default function Services() {
             <div className={styles.icon_bg}>
               <UserIcon fill="white" width={32} height={30} />
             </div>
-            <h4>AWS Server Services</h4>
+            <h4>Cloud Services</h4>
             <p className={styles.card_text}>
             Harness the Power of AWS for Scalable and Secure Cloud Solutions
             </p>

@@ -10,7 +10,6 @@ import Link from "next/link";
 
 // Components
 import { OurProjectsData } from "../../data/OurProjectsData";
-import { MoreProjectsData } from "../../data/MoreProjectsData";
 
 // Styles
 import styles from "./projects.module.css";
@@ -106,7 +105,7 @@ export default function OurProjects() {
           </Slider>
         </div>
       </section>
-      <section className={styles.more_projects}>
+      {/* <section className={styles.more_projects}>
         <div className="container">
           <h3 className="site-sub-heading">More Projects</h3>
           <div className="more-projects-slider">
@@ -128,7 +127,7 @@ export default function OurProjects() {
             </Slider>
           </div>
         </div>
-      </section>
+      </section> */}
     </Fragment>
   );
 }
