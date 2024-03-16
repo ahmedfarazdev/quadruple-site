@@ -1,0 +1,40 @@
+.service_detail {
+    padding-bottom: 3rem;
+}
+
+.content_meta {
+    padding-top: 2rem;
+}
+
+.content_meta h4 {
+    font-family: var(--font-family-made);
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.content_meta p {
+    font-family: var(--font-family-made);
+    font-size: 0.875rem;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+.content_meta .list {
+    padding-top: 1rem;
+    padding-left: 1.25rem;
+}
+
+.content_meta .list li {
+    list-style-type: disc;
+    font-family: var(--font-family-made);
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+}
+
+@media (max-width: 767px) {
+    .service_detail {
+        padding-bottom: 2rem;
+    }
+}

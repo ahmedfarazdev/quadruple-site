@@ -1,0 +1,104 @@
+.faqs {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.faqs_row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.faqs_meta {
+    flex: 0 0 auto;
+    width: 70%;
+}
+
+.faqs_accordian_btn {
+    width: 100%;
+    border: 0;
+    background: var(--white);
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.07),
+        0 6px 18px -1px rgba(0, 0, 0, 0.04);
+    border-radius: 0.625rem;
+    padding: 1.563rem 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faqs_accordian .faqs_accordian_title {
+    font-family: var(--font-family-made);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--primary);
+    text-align: left;
+}
+
+.accordian_body {
+    background: var(--white);
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.07),
+        0 6px 18px -1px rgba(0, 0, 0, 0.04);
+    padding: 1.563rem 1.875rem;
+    animation: myAnim 1s ease 0s 1;
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.faqs_accordian .accordian_description {
+    font-family: var(--font-family-made);
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.faqs_accordian_open_btn {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    background: var(--white);
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.07),
+        0 6px 18px -1px rgba(0, 0, 0, 0.04);
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    padding: 1.563rem 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faqs_accordian_open_btn .faqs_accordian_title {
+    color: var(--primary);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767px) {
+    .faqs {
+        padding: 4rem 0;
+    }
+
+    .faqs_meta {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .faqs_accordian .faqs_accordian_title {
+        font-size: 1rem;
+    }
+}

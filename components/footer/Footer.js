@@ -123,9 +123,9 @@ const Footer = () => {
                 <button type="submit">Submit</button>
               </div> */}
             </div>
-            <div className={styles.footer_cols}>
+            {/* <div className={styles.footer_cols}>
               
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -135,13 +135,13 @@ const Footer = () => {
             <p>©2023 by Quadruple Solution.</p>
             <ul className={styles.bottom_list}>
               <li>
-                <Link href="#">Privacy Policy</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="#">Terms Of Use</Link>
+                <Link href="terms-of-use">Terms Of Use</Link>
               </li>
               <li>
-                <Link href="#">Faq&apos;s</Link>
+                <Link href="/faqs">Faq&apos;s</Link>
               </li>
             </ul>
           </div>

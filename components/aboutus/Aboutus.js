@@ -29,11 +29,15 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>Blockchain Development</h4>
+            <h4>
+              Blockchain <br></br> Development
+            </h4>
+
             <p className={styles.card_text}>
-            The groundbreaking potential of Blockchain technology is a core belief at Quadruple. 
+              The groundbreaking potential of Blockchain technology is a core
+              belief at Quadruple.
             </p>
-            <Link href="#" className={styles.card_link}>
+            <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -44,11 +48,15 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>Web Development</h4>
+            <h4>
+              Web <br></br> Development
+            </h4>
             <p className={styles.card_text}>
-            At Quadtruple Solutions, we craft web applications that seamlessly blend cutting-edge technology with creative innovation, ensuring simplicity, effectiveness, and captivation for your users.
+              At Quadtruple Solutions, we craft web applications that seamlessly
+              blend cutting-edge technology with creative innovation, ensuring
+              simplicity, effectiveness, and captivation for your users.
             </p>
-            <Link href="#" className={styles.card_link}>
+            <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -59,11 +67,14 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>DevOps Services</h4>
+            <h4>
+              DevOps <br></br> Services
+            </h4>
             <p className={styles.card_text}>
-            Quadruple offers comprehensive DevOps services to streamline and enhance your development and operations processes.  
+              Quadruple offers comprehensive DevOps services to streamline and
+              enhance your development and operations processes.
             </p>
-            <Link href="#" className={styles.card_link}>
+            <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -74,11 +85,15 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>Web Security</h4>
+            <h4>
+              Web <br></br> Security
+            </h4>
             <p className={styles.card_text}>
-            Quadruple, a prominent provider of web security solutions, is dedicated to safeguarding internet environments against potential threats and vulnerabilities.
+              Quadruple, a prominent provider of web security solutions, is
+              dedicated to safeguarding internet environments against potential
+              threats and vulnerabilities.
             </p>
-            <Link href="#" className={styles.card_link}>
+            <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -89,11 +104,16 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>Cyber Security</h4>
+            <h4>
+              Cyber <br></br> Security
+            </h4>
             <p className={styles.card_text}>
-            Elevate your digital defenses with Quadruple&apos;s cutting-edge cyber security solutions. We fortify your digital assets with robust cyber security measures, shielding you from evolving online threats.
+              Elevate your digital defenses with Quadruple&apos;s cutting-edge
+              cyber security solutions. We fortify your digital assets with
+              robust cyber security measures, shielding you from evolving online
+              threats.
             </p>
-            <Link href="#" className={styles.card_link}>
+            <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -104,11 +124,15 @@ export default function Aboutus() {
               height={44}
               className={styles.card_icon}
             />
-            <h4>AWS Services</h4>
+            <h4>
+              AWS <br></br> Services
+            </h4>
             <p className={styles.card_text}>
-            Unlock the full potential of cloud computing with Quadruple&apos;s AWS services, delivering unparalleled scalability, reliability, and innovation.
+              Unlock the full potential of cloud computing with Quadruple&apos;s
+              AWS services, delivering unparalleled scalability, reliability,
+              and innovation.
             </p>
-            <Link href="#" className={styles.card_link}>
+            <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>

@@ -26,7 +26,7 @@ export default function Header() {
         <div className="container">
           <div className={styles.navbar}>
             <Link href="/">
-              <Logo width={118} height={75} />
+              <Logo width={118} height={60} />
             </Link>
             <ul className={styles.navbar_nav}>
               <li>
@@ -67,9 +67,9 @@ export default function Header() {
                 </Link>
               </li>
             </ul>
-            <div className={styles.header_btn}>
-              {/* <button type="submit">White Paper</button> */}
-            </div>
+            {/* <div className={styles.header_btn}>
+              <button type="submit">White Paper</button>
+            </div> */}
             <div className={styles.toggle_open} onClick={handleMenuOpen}>
               <Menu stroke="#2C2929" width={24} height={24} />
             </div>
@@ -88,46 +88,54 @@ export default function Header() {
         <nav>
           <ul className={styles.navbar_nav}>
             <li>
-              <Link href="/" className={pathname == "/" ? styles.active : ""}>
+              <Link
+                href="/"
+                className={pathname == "/" ? styles.active : ""}
+                onClick={handleMenuClose}
+              >
                 Home
               </Link>
             </li>
             <li>
               <Link
-                href="/about-us"
+                href="#about-us"
                 className={pathname == "/about-us" ? styles.active : ""}
+                onClick={handleMenuClose}
               >
                 About us
               </Link>
             </li>
             <li>
               <Link
-                href="/projucts"
+                href="#projucts"
                 className={pathname == "/projucts" ? styles.active : ""}
+                onClick={handleMenuClose}
               >
                 Projects
               </Link>
             </li>
             <li>
               <Link
-                href="/services"
+                href="#services"
                 className={pathname == "/services" ? styles.active : ""}
+                onClick={handleMenuClose}
               >
                 Services
               </Link>
             </li>
             <li>
               <Link
-                href="/contact-us"
+                href="#contact-us"
                 className={pathname == "/contact-us" ? styles.active : ""}
+                onClick={handleMenuClose}
               >
                 Contact Us
               </Link>
             </li>
           </ul>
-          <div className={styles.header_btn_mobile}>
+          {/* <div className={styles.header_btn_mobile}>
             <button type="submit">White Paper</button>
-          </div>
+          </div> */}
         </nav>
       </header>
       <div

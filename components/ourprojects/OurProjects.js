@@ -20,7 +20,7 @@ export default function OurProjects() {
     centerMode: true,
     centerPadding: "160px",
     slidesToShow: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     responsive: [
       {
@@ -96,7 +96,11 @@ export default function OurProjects() {
                       <span className={styles.project_id}>{data.id}</span>
                       <h3 className={styles.project_title}>{data.title}</h3>
                       <p className={styles.project_detail}>{data.text}</p>
-                      <Link target="_blank" href={data.link} className={styles.project_link}>
+                      <Link
+                        target="_blank"
+                        href={data.link}
+                        className={styles.project_link}
+                      >
                         See More
                       </Link>
                     </div>
@@ -114,7 +118,7 @@ export default function OurProjects() {
               {MoreProjectsData &&
                 MoreProjectsData.map((data, index) => (
                   <div key={index} className={styles.more_projects_meta}>
-                    <div className={styles.more_project_img}>
+                    <Link href="#" className={styles.more_project_img}>
                       <Image
                         src={data.img}
                         alt="project"
@@ -122,7 +126,9 @@ export default function OurProjects() {
                         height={350}
                         objectFit="cover"
                       />
-                    </div>
+                      
+                    </Link>
+                    <h5 className={styles.project_title}>Lorem Ipsum</h5>
                   </div>
                 ))}
             </Slider>

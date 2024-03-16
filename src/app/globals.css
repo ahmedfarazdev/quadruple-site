@@ -111,7 +111,7 @@
 
 /* Our Projects Slider */
 .projects-slider {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .our-projects-slider,
@@ -125,7 +125,7 @@
 }
 
 .more-projects-slider .slick-dots {
-  bottom: -2.188rem;
+  bottom: -2.375rem;
 }
 
 .more-projects-slider .slick-dots li button:before {

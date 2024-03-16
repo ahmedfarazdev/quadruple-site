@@ -654,3 +654,43 @@ export const Email = (props) => {
     </svg>
   );
 };
+
+export const Plus = (props) => {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.5 9H16.5M9 16.5V1.5"
+        stroke={props.color}
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Minus = (props) => {
+  return (
+    <svg
+      width="18"
+      height="2"
+      viewBox="0 0 18 2"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.5 1H16.5"
+        stroke={props.color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};

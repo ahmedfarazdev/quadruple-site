@@ -1,11 +1,10 @@
 .footer {
     background: var(--primary);
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .footer_meta {
     display: flex;
-    align-items: center;
 }
 
 .footer_left {
@@ -13,9 +12,9 @@
 }
 
 .footer_right {
-    flex: 0 0 60%;
-    margin-left: auto;
+    flex: 0 0 70%;
     display: flex;
+    justify-content: flex-end;
 }
 
 .social_media_links_list {
@@ -41,7 +40,7 @@
 }
 
 .footer_cols {
-    flex: 0 0 33.33333%;
+    flex: 0 0 30%;
 }
 
 .footer_right h6 {
