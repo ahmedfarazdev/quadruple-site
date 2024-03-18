@@ -101,7 +101,7 @@ export default function OurProjects() {
                         href={data.link}
                         className={styles.project_link}
                       >
-                        See More
+                        Go To Site
                       </Link>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ export default function OurProjects() {
       </section>
       <section className={styles.more_projects}>
         <div className="container">
-          <h3 className="site-sub-heading">More Projects</h3>
+          <h3 className="site-sub-heading">Tools We Use</h3>
           <div className="more-projects-slider">
             <Slider {...settings2}>
               {MoreProjectsData &&
@@ -121,14 +121,14 @@ export default function OurProjects() {
                     <Link href="#" className={styles.more_project_img}>
                       <Image
                         src={data.img}
-                        alt="project"
+                        alt="tools"
                         width={500}
                         height={350}
                         objectFit="cover"
                       />
                       
                     </Link>
-                    <h5 className={styles.project_title}>Lorem Ipsum</h5>
+                    <h5 className={styles.project_title}>{ data.title }</h5>
                   </div>
                 ))}
             </Slider>

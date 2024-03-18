@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <section id="hero-section"><Hero /></section>
-      <section id="aboutus-section"><Aboutus /></section>
+      <section id="aboutus-our-services"><Aboutus /></section>
       <section id="projects-section"><OurProjects /></section>
       <section id="services-section"><Services /></section>
     </>

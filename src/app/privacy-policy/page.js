@@ -12,7 +12,7 @@ const page = () => {
           <div className={styles.content_meta}>
             
             <p>
-            At Quadruple Solutions, we are committed to protecting the privacy and security of our clients' and visitors' personal information. This Privacy Policy outlines how we collect, use, disclose, and protect information gathered through our website and our services.
+            At Quadruple Solutions, we are committed to protecting the privacy and security of our clients&apos; and visitors&apos; personal information. This Privacy Policy outlines how we collect, use, disclose, and protect information gathered through our website and our services.
             </p>
             <h4>Information We Collect</h4>
             <p>We may collect personal information when you interact with us, including but not limited to:</p>

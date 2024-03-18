@@ -1,6 +1,6 @@
 // Libraries
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 // Components
 import {
@@ -10,18 +10,38 @@ import {
   UserIcon,
   HatIcon,
   LocationIcon,
-} from "../../utils/icons";
+  AI,
+} from '../../utils/icons';
 
 // Styles
-import styles from "./aboutus.module.css";
+import styles from './aboutus.module.css';
 
 export default function Aboutus() {
   return (
     <section className={styles.about_us}>
       <div className="container">
-        <h2 className="site-heading">About Us</h2>
-        <p className="site-text">All You Need To Know About Us</p>
+        <h2 className="site-heading">Services We Provide</h2>
+        <p className="site-text">Discover Our Core Services</p>
         <div className={styles.about_card}>
+          <div className={styles.single_card}>
+            <PenIcon
+              fill="#2C2929"
+              width={29}
+              height={44}
+              className={styles.card_icon}
+            />
+            <h4>
+              AI <br></br> Services
+            </h4>
+
+            <p className={styles.card_text}>
+              Unlock the power of Artificial Intelligence (AI) with our
+              comprehensive suite of services
+            </p>
+            <Link href="services-detail" className={styles.card_link}>
+              See More
+            </Link>
+          </div>
           <div className={styles.single_card}>
             <PenIcon
               fill="#2C2929"

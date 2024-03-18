@@ -11,6 +11,8 @@ export default function Hero() {
         <div className={styles.hero_content}>
           <h1 className={styles.hero_title}>Quadruple</h1>
           <p className={styles.hero_text}>Solutions</p>
+          <br />
+          <p className={styles.hero_text_mini}>Turning Ideas into Digital Success!</p>
         </div>
       </div>
     </section>

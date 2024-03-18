@@ -16,7 +16,7 @@ const FaqsData = [
     plusIcon: <Plus color="rgb(30, 30, 30)" />,
     minusIcon: <Minus color="rgb(255, 255, 255)" />,
     description:
-      "We have 20 experienced specialists in the following fields Design, Discovery, Product Development, Back-end & Front-end Development, iOS & Android Development, and QA.",
+      "we have more than 20 employees with 10 to 15 years of experience in IT industry",
   },
 
   {
@@ -25,7 +25,7 @@ const FaqsData = [
     plusIcon: <Plus color="rgb(30, 30, 30)" />,
     minusIcon: <Minus color="rgb(255, 255, 255)" />,
     description:
-      "At Marvellex, we believe that the relationship with our clients doesn't end after we release their software or website. That's why we offer comprehensive after-release support to ensure that our clients can continue to get the most out of their investment.",
+      "At Quadruple Solutions, we believe that the relationship with our clients doesn't end after we release their software or website. That's why we offer comprehensive after-release support to ensure that our clients can continue to get the most out of their investment.",
   },
 ];
 

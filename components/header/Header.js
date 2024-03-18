@@ -36,10 +36,10 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="#aboutus-section"
+                  href="/#aboutus-our-services"
                   className={pathname == "/about-us" ? styles.active : ""}
                 >
-                  About us
+                  Our Servies
                 </Link>
               </li>
               <li>
@@ -47,17 +47,17 @@ export default function Header() {
                   href="#projects-section"
                   className={pathname == "/projects" ? styles.active : ""}
                 >
-                  Projects
+                  Our Projects
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="#services-section"
                   className={pathname == "/services" ? styles.active : ""}
                 >
                   Services
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="#contact-section"

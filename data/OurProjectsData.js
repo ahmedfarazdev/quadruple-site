@@ -1,7 +1,7 @@
 const sliderImg1 = "/images/productdata.webp";
 const sliderImg2 = "/images/slider-img2.jpg";
 const sliderImg3 = "/images/slider-img3.jpg";
-const sliderImg4 = "/images/slider-img4.jpg";
+const sliderImg4 = "/images/securitynet.ai.png";
 
 export const OurProjectsData = [
   {
@@ -28,8 +28,8 @@ export const OurProjectsData = [
   {
     id: "04",
     img: sliderImg4,
-    title: "Marvellex Grand Store",
-    link: "https://marvellexglobalstore.com/",
-    text: "Embark on a revolutionary shopping experience with Marvellex Global Store, where innovation meets convenience at every step.",
+    title: "Securitynet.ai",
+    link: "https://www.securitynet.ai/",
+    text: "Securitynet.ai, an advanced AI-powered camera software designed to revolutionize surveillance systems.",
   },
 ];

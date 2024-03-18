@@ -27,6 +27,16 @@
     font-weight: 400;
     color: var(--white);
     text-transform: uppercase;
+    text-align: right;
+}
+.hero_text_mini {
+    font-family: var(--font-family-azonix);
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: var(--white);
+    text-transform: lowercase;
+    text-align: center;
+    background-color: black;
 }
 
 /* MEDIA QUERIES */

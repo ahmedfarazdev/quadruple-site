@@ -14,7 +14,7 @@ const page = () => {
           <div className={styles.content_meta}>
             <h4>Terms and Conditions</h4>
             <p>
-            Welcome to Quadruple Solutions. These Terms and Conditions ("Terms") govern your access to and use of our website, products, and services. By accessing or using our website or services, you agree to comply with these terms and conditions. If you do not agree with these terms, please do not access or use our website or services.
+            Welcome to Quadruple Solutions. These Terms and Conditions (&quot;Terms&quot;) govern your access to and use of our website, products, and services. By accessing or using our website or services, you agree to comply with these terms and conditions. If you do not agree with these terms, please do not access or use our website or services.
             </p>
             <h4>1. Acceptance of Terms</h4>
             <ul className={styles.list}>
@@ -34,7 +34,7 @@ const page = () => {
             </ul>
             <h4>4. Disclaimer of Warranties</h4>
             <ul className={styles.list}>
-              <li>4.1 Our website and services are provided on an "as is" and "as available" basis, without any warranties of any kind, express or implied.</li>
+              <li>4.1 Our website and services are provided on an &quot;as is&quot; and &quot;as available&quot; basis, without any warranties of any kind, express or implied.</li>
               <li>4.2 We do not warrant that our website or services will be uninterrupted, error-free, or free of viruses or other harmful components.</li>
             </ul>
             <h4>5. Limitation of Liability</h4>

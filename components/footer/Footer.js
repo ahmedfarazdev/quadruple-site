@@ -74,20 +74,20 @@ const Footer = () => {
               <h6>Company</h6>
               <ul className={styles.footer_list}>
                 <li>
-                  <Link href="#">Home</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="#">About Us</Link>
+                  <Link href="/#aboutus-our-services">Our Services</Link>
                 </li>
                 <li>
-                  <Link href="#">Projects</Link>
+                  <Link href="/#projects-section">Projects</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="#">Services</Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link href="#">Contact Us</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className={styles.footer_cols}>
@@ -132,7 +132,7 @@ const Footer = () => {
       <div className={styles.footer_bottom}>
         <div className="container">
           <div className={styles.footer_bottom_meta}>
-            <p>©2023 by Quadruple Solution.</p>
+            <p>©2024 by Quadruple Solution.</p>
             <ul className={styles.bottom_list}>
               <li>
                 <Link href="/privacy-policy">Privacy Policy</Link>
