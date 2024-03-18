@@ -100,15 +100,15 @@ const Footer = () => {
                   <span>Islamabad, Pakistan</span>
                 </li>
                 <li>
-                  <Link href="tel:(333) 123-4567">
+                  <Link href="tel:+92 (332) 532-0647">
                     <Call stroke="white" width={20} height={20} />
-                    <span>(332) 532-0647</span>
+                    <span>+92 (332) 532-0647</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="mailto:support@gmail.com">
+                  <Link href="mailto:support@quadsol.co">
                     <Email stroke="white" width={18} height={16} />
-                    <span>support@quadsol.com</span>
+                    <span>support@quadsol.co</span>
                   </Link>
                 </li>
               </ul>
