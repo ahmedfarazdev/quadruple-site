@@ -106,18 +106,16 @@ export default function Aboutus() {
               className={styles.card_icon}
             />
             <h4>
-              Web <br></br> Security
+              Web/Cyber <br></br> Security
             </h4>
             <p className={styles.card_text}>
-              Quadruple, a prominent provider of web security solutions, is
-              dedicated to safeguarding internet environments against potential
-              threats and vulnerabilities.
+            Quadruple offers custom web and cyber security services, including assessments and incident response planning, to safeguard your digital assets.
             </p>
             <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
           </div>
-          <div className={styles.single_card}>
+          {/* <div className={styles.single_card}>
             <HatIcon
               fill="#2C2929"
               width={77}
@@ -136,7 +134,7 @@ export default function Aboutus() {
             <Link href="services-detail" className={styles.card_link}>
               See More
             </Link>
-          </div>
+          </div> */}
           <div className={styles.single_card}>
             <LocationIcon
               fill="#2C2929"
