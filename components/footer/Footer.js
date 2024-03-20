@@ -27,7 +27,7 @@ const Footer = () => {
               <Logo width={118} height={75} />
             </Link>
             <ul className={styles.social_media_links_list}>
-              <li>
+              {/* <li>
                 <Link
                   className={styles.social_media_link}
                   href="#"
@@ -56,11 +56,11 @@ const Footer = () => {
                 >
                   <Instagram fill="white" width={15} height={15} />
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   className={styles.social_media_link}
-                  href="#"
+                  href="https://www.linkedin.com/company/quadsolution/"
                   title="linkedin link"
                   target="_blank"
                 >

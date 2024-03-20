@@ -1,11 +1,24 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 // Components
-import { Analytics, BagIcon, Consultation, ContentManagement, Ecommerce, HouseIcon, OneIcon, SearchEngine, SocialMedia, UIUXDesign, UserIcon, WebHosting } from "../../../../utils/icons";
+import {
+  Analytics,
+  BagIcon,
+  Consultation,
+  ContentManagement,
+  Ecommerce,
+  HouseIcon,
+  OneIcon,
+  SearchEngine,
+  SocialMedia,
+  UIUXDesign,
+  UserIcon,
+  WebHosting,
+} from '../../../../utils/icons';
 
 // Styles
-import styles from "../page.module.css";
+import styles from '../page.module.css';
 
 const Services = () => {
   return (
@@ -18,7 +31,12 @@ const Services = () => {
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                  <Ecommerce fill="white" fillLight="#b7b7b7" width={45} height={45} />
+                  <Ecommerce
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={45}
+                    height={45}
+                  />
                 </div>
                 <h4>
                   E-commerce <br></br> Solutions
@@ -29,14 +47,16 @@ const Services = () => {
                   transactions.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <ContentManagement fill="white" fillLight="#b7b7b7" width={42} height={42} />
+                  <ContentManagement
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={42}
+                    height={42}
+                  />
                 </div>
                 <h4>
                   Content Management <br></br> Systems Developement
@@ -47,14 +67,16 @@ const Services = () => {
                   clients.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <SearchEngine fill="white" fillLight="#b7b7b7" width={45} height={45} />
+                  <SearchEngine
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={45}
+                    height={45}
+                  />
                 </div>
                 <h4>
                   Search <br></br> Engine Optimization
@@ -65,14 +87,16 @@ const Services = () => {
                   on-page optimization, and content strategy.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <WebHosting fill="white" fillLight="#b7b7b7" width={44} height={44} />
+                  <WebHosting
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={44}
+                    height={44}
+                  />
                 </div>
                 <h4>
                   Web Hosting <br></br> Domain Registration
@@ -82,14 +106,16 @@ const Services = () => {
                   registering domain names for their websites.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <Consultation fill="white" fillLight="#b7b7b7" width={45} height={45} />
+                  <Consultation
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={45}
+                    height={45}
+                  />
                 </div>
                 <h4>
                   Consultation <br></br> and Strategy
@@ -100,14 +126,16 @@ const Services = () => {
                   web solutions to achieve their objectives.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <Analytics fill="white" fillLight="#b7b7b7" width={45} height={45} />
+                  <Analytics
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={45}
+                    height={45}
+                  />
                 </div>
                 <h4>
                   Analytics <br></br> And Reporting
@@ -118,14 +146,16 @@ const Services = () => {
                   and providing regular reports to clients.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <SocialMedia fill="white" fillLight="#b7b7b7" width={42} height={42} />
+                  <SocialMedia
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={42}
+                    height={42}
+                  />
                 </div>
                 <h4>
                   Social <br></br> Media Integration
@@ -136,14 +166,16 @@ const Services = () => {
                   social sharing of content.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
             <div className={styles.single_card}>
               <div className={styles.single_card_content}>
                 <div className={styles.icon_bg}>
-                <UIUXDesign fill="white" fillLight="#b7b7b7" width={45} height={45} />
+                  <UIUXDesign
+                    fill="white"
+                    fillLight="#b7b7b7"
+                    width={45}
+                    height={45}
+                  />
                 </div>
                 <h4>
                   UI/UX<br></br> Design
@@ -154,9 +186,6 @@ const Services = () => {
                   increase conversions.
                 </p>
               </div>
-              <Link href="services-detail" className={styles.card_link}>
-                See more
-              </Link>
             </div>
           </div>
         </div>

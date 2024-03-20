@@ -44,7 +44,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="#projects-section"
+                  href="/#projects-section"
                   className={pathname == "/projects" ? styles.active : ""}
                 >
                   Our Projects

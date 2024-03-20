@@ -45,7 +45,7 @@ export default function Aboutus() {
                 comprehensive suite of services
               </p>
             </div>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -66,7 +66,7 @@ export default function Aboutus() {
                 belief at Quadruple.
               </p>
             </div>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -88,7 +88,7 @@ export default function Aboutus() {
                 for your users.
               </p>
             </div>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -108,7 +108,7 @@ export default function Aboutus() {
                 enhance your development and operations processes.
               </p>
             </div>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -129,7 +129,7 @@ export default function Aboutus() {
                 safeguard your digital assets.
               </p>
             </div>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div>
@@ -149,7 +149,7 @@ export default function Aboutus() {
               robust cyber security measures, shielding you from evolving online
               threats.
             </p>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div> */}
@@ -170,7 +170,7 @@ export default function Aboutus() {
                 scalability, reliability, and innovation.
               </p>
             </div>
-            <Link href="services-detail" className={styles.card_link}>
+            <Link href="services" className={styles.card_link}>
               See More
             </Link>
           </div>
