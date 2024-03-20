@@ -120,12 +120,12 @@
 }
 
 .more-projects-slider {
-  margin-top: 2.5rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .more-projects-slider .slick-dots {
-  bottom: -2.375rem;
+  bottom: -3.375rem;
 }
 
 .more-projects-slider .slick-dots li button:before {

@@ -162,9 +162,9 @@
     transform: translateX(0%);
   }
 
-  .navbar {
+  /* .navbar {
     justify-content: flex-start;
-  }
+  } */
 
   .header_btn {
     margin-left: auto;

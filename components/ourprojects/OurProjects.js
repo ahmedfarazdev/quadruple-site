@@ -20,7 +20,7 @@ export default function OurProjects() {
     centerMode: true,
     centerPadding: "160px",
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     responsive: [
       {
@@ -48,7 +48,7 @@ export default function OurProjects() {
   var settings2 = {
     infinite: true,
     slidesToScroll: 1,
-    slidesToShow: 3,
+    slidesToShow: 4,
     autoplay: false,
     dots: true,
     autoplaySpeed: 5000,
@@ -56,13 +56,13 @@ export default function OurProjects() {
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
       {

@@ -1,0 +1,133 @@
+.service_detail {
+    padding-bottom: 3rem;
+}
+
+.content_meta {
+    padding-top: 2rem;
+}
+
+.content_meta h4 {
+    font-family: var(--font-family-made);
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.content_meta p {
+    font-family: var(--font-family-made);
+    font-size: 0.875rem;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+.content_meta .list {
+    padding-top: 1rem;
+    padding-left: 1.25rem;
+}
+
+.content_meta .list li {
+    list-style-type: disc;
+    font-family: var(--font-family-made);
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+}
+
+.services {
+    background: var(--border);
+    padding: 5rem 0;
+}
+
+.services_card {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.single_card {
+    background: var(--white);
+    border-radius: 0.625rem;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.single_card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.icon_bg {
+    background: var(--primary);
+    width: 60px;
+    height: 60px;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.single_card h4 {
+    font-family: var(--font-family-made);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--primary);
+    /* margin-top: 1.25rem; */
+    line-height: 2rem;
+}
+
+.single_card .card_text {
+    font-family: var(--font-family-made);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray);
+    /* margin-top: 1.25rem; */
+}
+
+.single_card .card_link {
+    display: block;
+    font-family: var(--font-family-made);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--primary);
+    /* margin-top: 1.25rem; */
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1199px) {
+    .services_card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 767px) {
+    .services_card {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .services {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .services {
+        padding: 2.5rem 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .service_detail {
+        padding-bottom: 2rem;
+    }
+}

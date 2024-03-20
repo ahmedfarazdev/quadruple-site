@@ -69,8 +69,12 @@
     padding: 1.25rem 0 3rem;
 }
 
+.more_projects_meta {
+    text-align: center;
+}
+
 .more_projects .more_project_img {
-    padding: 0 0.75rem;
+    /* padding: 0 0.75rem; */
     display: inline-block;
 }
 
@@ -78,14 +82,15 @@
     width: 100%;
     border-radius: 0.625rem;
     object-fit: cover;
+    height: 200px;
 }
 
 .more_projects_meta .project_title {
     font-family: var(--font-family-made);
     font-size: 1.5rem;
     font-weight: 400;
-    padding-left: 0.75rem;
-    padding-top: 0.625rem;
+    /* padding-left: 0.75rem; */
+    /* padding-top: 0.625rem; */
 }
 
 /* MEDIA QUERIES */
