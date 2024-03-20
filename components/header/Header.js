@@ -39,7 +39,7 @@ export default function Header() {
                   href="/#aboutus-our-services"
                   className={pathname == "/about-us" ? styles.active : ""}
                 >
-                  Our Servies
+                  Our Services
                 </Link>
               </li>
               <li>
