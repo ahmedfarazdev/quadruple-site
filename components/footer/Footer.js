@@ -97,12 +97,12 @@ const Footer = () => {
               >
                 <li>
                   <Location stroke="white" width={16} height={20} />
-                  <span>Islamabad, Pakistan</span>
+                  <span>Kaiserstuhlstr 30, 79106, Freiburg im Breisgau, Germany</span>
                 </li>
                 <li>
-                  <Link href="tel:+92 (332) 532-0647">
+                  <Link href="tel:+4917673224877">
                     <Call stroke="white" width={20} height={20} />
-                    <span>+92 (332) 532-0647</span>
+                    <span>+49 176-7322-4877</span>
                   </Link>
                 </li>
                 <li>
