@@ -106,6 +106,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="tel:+4917673224877">
+                    <Call stroke="white" width={20} height={20} />
+                    <span>+92 332-5420-917</span>
+                  </Link>
+                </li>
+                <li>
                   <Link href="mailto:support@quadsol.co">
                     <Email stroke="white" width={18} height={16} />
                     <span>support@quadsol.co</span>
