@@ -1,0 +1,23 @@
+.showcase {
+    padding: 2rem 0 9rem;
+}
+
+.showcase img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .showcase {
+        padding: 0 0 6rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .showcase {
+        padding: 0 0 5rem;
+    }
+}

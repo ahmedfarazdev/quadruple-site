@@ -48,10 +48,11 @@ export default function OurProjects() {
   var settings2 = {
     infinite: true,
     slidesToScroll: 1,
-    slidesToShow: 4,
+    slidesToShow: 5,
     autoplay: false,
     dots: true,
     autoplaySpeed: 5000,
+    arrows: false,
     responsive: [
       {
         breakpoint: 991,
@@ -62,7 +63,7 @@ export default function OurProjects() {
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {

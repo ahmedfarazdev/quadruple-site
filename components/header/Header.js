@@ -50,6 +50,14 @@ export default function Header() {
                   Our Projects
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/#blogs-section"
+                  className={pathname == "/blogs" ? styles.active : ""}
+                >
+                  Blogs
+                </Link>
+              </li>
               {/* <li>
                 <Link
                   href="#services-section"
