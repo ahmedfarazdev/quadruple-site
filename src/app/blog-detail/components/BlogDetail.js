@@ -23,7 +23,7 @@ const BlogDetail = () => {
                   className={styles.blogDetailImg}
                   width={695}
                   height={462}
-                  alt=""
+                  alt="d-base image"
                 />
                 <div className={styles.blogHeadings}>
                   <span className={styles.blogTags}>Leadership</span>
@@ -63,7 +63,7 @@ const BlogDetail = () => {
                   reliable information online. So keep your audience&apos;s
                   needs at heart while leveraging technology’s assistance!
                 </p>
-                <Image src={blogDetail2} width={850} height={550} alt="" />
+                <Image src={blogDetail2} width={850} height={550} alt="d-base image" />
                 <p className={styles.para}>
                   To its detractors, love at first sight must be an illusion –
                   the wrong term for what is simply infatuation, or a way to

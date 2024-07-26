@@ -9,7 +9,7 @@ const BlogCard = ({ href, ...props }) => {
   return (
     <Fragment>
       <div className="blog-content">
-        <Image src={props.img} width={320} height={180} alt="" />
+        <Image src={props.img} width={320} height={180} alt={props.tag} />
         <div className="blog-meta">
           <span className="blog-tags">{props.tag}</span>
           <p className="blog-date">{props.date}</p>

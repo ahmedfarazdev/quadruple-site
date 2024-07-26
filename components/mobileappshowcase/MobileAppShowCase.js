@@ -75,7 +75,7 @@ export default function MobileAppShowCase() {
                     src={screenshot1}
                     width={400}
                     height={450}
-                    alt=""
+                    alt="d-base image"
                   />
                 </Link>
               </div>
@@ -85,7 +85,7 @@ export default function MobileAppShowCase() {
                     src={screenshot2}
                     width={400}
                     height={450}
-                    alt=""
+                    alt="d-base image"
                   />
                 </Link>
               </div>
@@ -95,7 +95,7 @@ export default function MobileAppShowCase() {
                     src={screenshot3}
                     width={400}
                     height={450}
-                    alt=""
+                    alt="d-base image"
                   />
                 </Link>
               </div>
@@ -105,7 +105,7 @@ export default function MobileAppShowCase() {
                     src={screenshot4}
                     width={400}
                     height={450}
-                    alt=""
+                    alt="d-base image"
                   />
                 </Link>
               </div>
@@ -115,7 +115,7 @@ export default function MobileAppShowCase() {
                     src={screenshot5}
                     width={400}
                     height={450}
-                    alt=""
+                    alt="d-base image"
                   />
                 </Link>
               </div>
@@ -125,7 +125,7 @@ export default function MobileAppShowCase() {
                     src={screenshot1}
                     width={400}
                     height={450}
-                    alt=""
+                    alt="d-base image"
                   />
                 </Link>
               </div>
